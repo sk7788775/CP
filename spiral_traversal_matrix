@@ -1,3 +1,10 @@
+bool cond(ll a, ll b, ll c, ll d) {
+    // return ((a==b) && (b==c) && (c==d) && (d==a));
+    if(a>=b || c >= d)
+        return true;
+    return false;
+}
+
 while((t--)>0) {
         // cout << "Hello" << endl;
         // ll e,v,x,y,w;
